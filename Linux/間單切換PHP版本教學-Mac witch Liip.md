@@ -1,9 +1,10 @@
-#在 Mac 上切換 PHP 版本
+
+# 在 Mac 上切換 PHP 版本
 
 若你和筆者一樣，是使用 [Liip](https://php-osx.liip.ch/) 替你的 Mac 部署 PHP 的話。那麼恭喜你，切換版本將會變得非常簡單
 
 
-##關於備份
+## 關於備份
 使用 Liip 可以非常簡單快速地切換版本。
 但筆者有聽聞其他人在**安裝 Liip PHP 時會覆蓋原 APACHE 設定**(雖然筆者並沒有遇到相關問題)。
 
@@ -11,12 +12,12 @@
 
 > <font color='#888888'>更好的做法是將客制設定拉出來做獨立檔案，再將設定檔 Include 回對應位置即可。</font>
 
-##PHP版本安裝
+## PHP版本安裝
 只要到 [Liip](https://php-osx.liip.ch/) 挑選對應版本至 CMD 進行指令動作即可。
 不需要特別於 root 身份執行。反正會再問你一次密碼。
 
 
-##版本切換
+## 版本切換
 Liip 會將 PHP 套件安裝於 `/usr/local` 底下，我們可至該目錄查看套件包是否存在。
 
 ![p1](picture/MacPHPLiip/p1.png)<font color='#888888'>(紅匡部分為 PHP 不同版本之套件包)</font>
@@ -36,7 +37,7 @@ ln -s php5-7.3.0alpha3-20180705-141106 php5
 > <font color='#888888'>當你使用 Liip 部署好選定版本後，可以透過 [phpinfo](http://php.net/manual/en/function.phpinfo.php) 去確定本機執行當下版本。亦可在 CMD 下 `php -v` 查看。</font>
 
 
-##快速切換版本
+## 快速切換版本
 若覺得每次切換版本都需要輸入指令實在太麻煩，可以寫 **Base Shell** 來做快速切換。
 建立檔案 switch_php.sh (位置隨意，方便呼叫即可)並填入以下指令。
 ```
@@ -78,7 +79,7 @@ fi
 
 
 
-####參考連結
+#### 參考連結
 * [PHP 5.6 and PHP 7 on same Mac with Liip
 ](https://blog.joeymasip.com/php-5-6-and-php-7-on-same-mac-with-liip/)
 
