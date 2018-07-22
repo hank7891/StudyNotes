@@ -58,7 +58,7 @@ fi
 
 if [ "$1" == "php71" ]; then
    sudo rm /usr/local/php5
-   sudo ln -s php5-7.1.19-20180625-094435
+   sudo ln -s php5-7.1.19-20180625-094435 /usr/local/php5
    echo "activated php71; restart apache now"
 fi
 
