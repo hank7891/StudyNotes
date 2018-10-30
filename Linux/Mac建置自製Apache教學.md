@@ -81,10 +81,10 @@
 `Liip` 部分 筆者是自行移植載入檔案(`/etc/apache2/other`)，並於 `httpd.conf` 下自行添加 `Include /usr/local/etc/httpd/other/*.conf`。
 
 ## HomeBrew 建置 PHP 環境
-待捕
+待補
 
 ## Liip 建置 PHP 環境
-待捕
+待補
 
 
 
