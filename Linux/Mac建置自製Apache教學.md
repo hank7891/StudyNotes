@@ -33,7 +33,7 @@
     // 關閉 apache
     $ sudo apachectl stop
     
-    // 靜止 apache httpd 自動啟動
+    // 禁止 apache httpd 自動啟動
     $ sudo launchctl unload /System/Library/LaunchDaemons/org.apache.httpd.plist 2>/dev/null
     ```
 
