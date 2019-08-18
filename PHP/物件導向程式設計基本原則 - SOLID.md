@@ -10,6 +10,8 @@
 
 
 ## S: Single responsibility principle(SRP) 單一職責
+
+**定義:**
 ```
 一個類別(class)/方法(method)只能負責一個職責
 ```
@@ -30,6 +32,8 @@
  * 遵守 SPR 可為程式提高內聚。
  
 ## Open/close principle(OCP) 開放/封閉原則
+
+**定義:**
 ```
 程式在擴充新功能時，不更動原程式碼或者僅以最小幅度修改程式碼的開發方式。
 ```
@@ -54,6 +58,8 @@
  * 系統對`新增開放`，`修改封閉`。
 
 ## L: Liskov substitution principle(LSP) Liskov替換
+
+**定義:**
 ```
 Subtypes must be substitutable for their base types.
 所有子類別都可以代理父類別的工作。
@@ -80,6 +86,7 @@ Subtypes must be substitutable for their base types.
 
 ## I: Interface Segregation Principle(ISP) 介面隔離
 
+**定義:**
 ```
 Clients should not be forced to depend upon interfaces that they don’t use.
 介面不應該強迫 Client 依賴於它們用不到的方法。
@@ -112,6 +119,7 @@ The dependency of one class to another one should depend on the smallest possibl
 
 ## D: Dependency Inversion Principle(DIP) 依賴反轉
 
+**定義:**
 ```
 High-level modules should not depend on low-level modules. Both should depend on abstractions.
 高階模組不應該依賴於低階模組，兩者都該依賴抽象。
